@@ -1,0 +1,13 @@
+{
+  "name": "damaverse",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "lint": "npx markdownlint docs/**/*.md README.md",
+    "test": "echo 'no tests yet'",
+    "build": "echo 'docs build placeholder'"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.41.0"
+  }
+}
