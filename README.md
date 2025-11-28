@@ -2,14 +2,15 @@
 
 Ecosystem guide for apps, partners, and integrations in DamaVerse.
 
-Stack: Markdown-first; ready for Docusaurus/Next/VitePress.
+Stack: VitePress (Node 20).
 
 ## Structure
 - docs/index.md: high-level outline
-- .devcontainer/: Node image for docs tooling
+- docs/.vitepress/config.js: site metadata + nav scaffolding
 - .github/workflows/ci.yml: lint/test/build
 
-## Contribution checklist
-- Keep sections concise and owned (see docs/index.md)
-- Add diagrams (PlantUML/Mermaid) where helpful
-- Record decisions in a changelog section
+## Commands
+- npm install
+- npm run docs:dev
+- npm run docs:build
+- npm run docs:preview

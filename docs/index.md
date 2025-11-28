@@ -9,7 +9,6 @@ Ecosystem guide for apps, partners, and integrations in DamaVerse.
 - APIs
 - Compliance
 
-
 ## Next steps
 - Fill in each section with the latest decisions
 - Add links to APIs/specs/diagrams

@@ -1,13 +1,17 @@
 {
   "name": "damaverse",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
     "lint": "npx markdownlint docs/**/*.md README.md",
-    "test": "echo 'no tests yet'",
-    "build": "echo 'docs build placeholder'"
+    "test": "npm run docs:build",
+    "build": "npm run docs:build"
   },
   "devDependencies": {
-    "markdownlint-cli": "^0.41.0"
+    "markdownlint-cli": "^0.41.0",
+    "vitepress": "^1.3.4"
   }
 }
